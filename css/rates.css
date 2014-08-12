@@ -1,0 +1,75 @@
+html body {
+	/*width: 480px;*/
+}
+
+.page-header {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.currency {
+	width: 260px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.currency-value {
+	width: 150px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+form a img {
+	display: inline-block;
+}
+
+#arrow-img {
+	margin-top: 50px; width:64px; height: 64px;
+	background-image: url('../images/arrow.png');
+}
+
+
+.calulated-currency-value {
+	min-width: 150px;	
+	display: inline-block;
+	text-align: right;
+	border-bottom: 1px solid black;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+
+#from {
+	width: 460px; float: left;
+	display: none;
+}
+
+#arrow {
+	width: 64px; margin-left: 20px; margin-right: 20px; float: left;
+	display: none; 
+}
+
+#to {
+	width: 460px; float: left;
+	display: none;
+}
+
+#to #row-to-add-another{
+	margin-bottom: 30px;
+}
+
+@media (max-width: 1064px) {
+    #arrow {
+       width: 64px; margin-left: 20px; margin-right: 20px; clear: both;
+    }
+    #arrow-img {
+    	margin-top: 15px;
+    	margin-left: 150px;
+    	background-image: url('../images/arrow-down.png');
+    }
+    #to {
+    	width: 500px; clear: both;
+    }
+}
